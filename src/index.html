@@ -2,12 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Card Validation</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/92c5c3c202.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>Holaa! si funciona!</header>
-    <main></main>
+    <header>
+      <navbar>
+        <div id="logo"><p>LOGO</p></div>
+        <a id="menu"><i class="fa-solid fa-bars fa-2xl"></i></a>
+      </navbar>
+    </header>
+    <main id="container">
+        <h1>VALIDAR TARJETA DE CRÉDITO</h1>
+        <p id="label">Ingrese el número de tarjeta de crédito</p>
+        <input id="cardNumber" minlength="16" maxlength="16"  type="text" name="creditCardNumber" required placeholder="XXXX XXXX XXXX 4523" pattern="[0-9]+">
+        <button id="validar">Validar</button>
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
