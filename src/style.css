@@ -1,0 +1,54 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #d9d9d9;
+}
+#logo{
+  padding: 15px 45px;
+}
+#menu{
+  padding: 20px 45px;
+  margin-top: 10px;
+}
+#logo, button{
+  background-color: #C0A48D;
+}
+#container{
+  width: 40%;
+  margin: 10% auto;
+  text-align: center;
+  height: 100%;
+  padding: 3em 5em;
+  background-color: #ECE7E2;
+}
+h1,p{
+  font-weight: 400;
+  font-size: 20px;
+}
+#label{
+  margin-top: 3em;
+}
+#cardNumber{
+  width: 42%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+#validar{
+  border-radius: 24px;
+  padding: 14px 70px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 40px auto;
+}
