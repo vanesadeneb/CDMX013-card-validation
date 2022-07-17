@@ -22,9 +22,11 @@
     </header>
     <main id="container">
         <h1>VALIDAR TARJETA DE CRÉDITO</h1>
-        <p id="label">Ingrese el número de tarjeta de crédito</p>
-        <input id="cardNumber" minlength="16" maxlength="16"  type="text" name="creditCardNumber" required placeholder="XXXX XXXX XXXX 4523" pattern="[0-9]+">
-        <button id="validar">Validar</button>
+        <form>
+          <p id="label">Ingrese el número de tarjeta de crédito</p>
+          <input id="cardNumber" minlength="16" maxlength="16"  type="text" inputmode="numeric" placeholder="XXXX XXXX XXXX 4523" pattern="[0-9]+" required/>
+          <button id="validar" onclick="validar()">Validar</button>
+      </form>
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
