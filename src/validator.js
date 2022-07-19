@@ -23,15 +23,14 @@ const validator = {
     const sum = validationCardNumber.reduce((a,b) => a + b, 0)
     console.log(sum);
     console.log(validationCardNumber);
+    //Checar si la tarjeta es válida o invalida
     if(sum % 10 === 0){
-      console.log("Es valida!");
+      alert("Tu tarjeta de credito " + creditCardNumber + " es válida");
       return true;
     }else{
-      console.log("No es valida!");
+      alert("Tu tarjeta de credito " + creditCardNumber + " NO es válida");
       return false;
     }
-    //
-    return;
   },
   maskify: function(){
 
