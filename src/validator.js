@@ -5,7 +5,6 @@ const validator = {
 
     //Algoritmo Luhn
     //Guardando los números invertidos en el array validationCardNumber
-
     for(let i=0; i < creditCardNumber.length; i++){
       validationCardNumber.push(parseInt(reverseNumber[i]));
     }
@@ -22,7 +21,7 @@ const validator = {
             validationCardNumber[j] = newNumber;          
         }
     }
-    
+
     //Sumar todos los dígitos
     const sum = validationCardNumber.reduce((a,b) => a + b, 0)
 
