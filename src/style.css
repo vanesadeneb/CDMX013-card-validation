@@ -10,14 +10,15 @@ navbar{
   background-color: #d9d9d9;
 }
 #logo{
-  padding: 15px 45px;
+  padding: 15px 25px;
+  width: 23%;
 }
 #menu{
-  padding: 20px 45px;
+  /*padding: 20px 45px;*/
   margin-top: 10px;
 }
 #logo, button{
-  background-color: #C0A48D;
+  background-color: #01010D;
 }
 #container{
   width: 40%;
