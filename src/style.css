@@ -41,14 +41,20 @@ h1,p{
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  
+  text-align: center;font-family: 'Montserrat', sans-serif;
 }
-#validar{
+#mensaje{
+  font-family: 'Montserrat', sans-serif;
+}
+#validar, #limpiar{
   border-radius: 24px;
   padding: 14px 70px;
   border: none;
   cursor: pointer;
   display: block;
   margin: 40px auto;
+}
+#limpiar{
+  display: none;
 }
