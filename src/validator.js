@@ -1,7 +1,7 @@
 const validator = {
   isValid: function(creditCardNumber){
-    let reverseNumber = creditCardNumber.split("").reverse().join("");
-    let validationCardNumber = [];
+    const reverseNumber = creditCardNumber.split("").reverse().join("");
+    const validationCardNumber = [];
 
     //Algoritmo Luhn
     //Guardando los números invertidos en el array validationCardNumber
@@ -21,21 +21,27 @@ const validator = {
             validationCardNumber[j] = newNumber;          
         }
     }
-
+    
     //Sumar todos los dígitos
     const sum = validationCardNumber.reduce((a,b) => a + b, 0)
-
+    
     //Checar si la tarjeta es válida o invalida
+    let pNode = document.getElementById("mensaje");
     if(sum % 10 === 0){
-      alert("Tu tarjeta de credito " + creditCardNumber + " es válida");
+      pNode.textContent += "Tu tarjeta de cŕedito " + creditCardNumber + " es válida";
+	    console.log("valida");
       return true;
     }else{
-      alert("Tu tarjeta de credito " + creditCardNumber + " NO es válida");
+      pNode.textContent += "Tu tarjeta de cŕedito " + creditCardNumber + " es inválida";
+	    console.log("invalida");
       return false;
     }
   },
-  maskify: function(){
-
-  },
+    maskify: function(creditCardNumber){
+    let numertoReplace = creditCardNumber.slice(0, -4);
+    let transformNumber = creditCardNumber.replace(numertoReplace, "#".repeat(numertoReplace.length));
+    console.log(transformNumber);
+    return transformNumber;
+    }
 };
 export default validator;
