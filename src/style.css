@@ -59,6 +59,7 @@ h1,p{
   margin: 40px auto;
   background-color: #8C1F28;
   color: white;
+  font-size: 20px;
 }
 #limpiar{
   display: none;
