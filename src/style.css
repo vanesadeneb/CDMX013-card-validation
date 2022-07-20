@@ -1,23 +1,26 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Raleway', sans-serif;
+  background-color: #981914;
 }
 navbar{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 0;
-  background-color: #d9d9d9;
+  background-color: #01010D;
 }
 #logo{
   padding: 15px 25px;
-  width: 23%;
+  width: 14%;
+  height: 61%;
 }
 #menu{
-  /*padding: 20px 45px;*/
+  color: white;
+  padding: 20px 45px;
   margin-top: 10px;
 }
-#logo, button{
+#logo{
   background-color: #01010D;
 }
 #container{
@@ -26,7 +29,7 @@ navbar{
   text-align: center;
   height: 100%;
   padding: 3em 5em;
-  background-color: #ECE7E2;
+  background-color: #f6f5f5;
 }
 h1,p{
   font-weight: 400;
@@ -39,10 +42,9 @@ h1,p{
   width: 42%;
   padding: 12px 20px;
   margin: 8px 0;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
-  box-sizing: border-box;
-  
+  box-sizing: border-box; 
   text-align: center;font-family: 'Montserrat', sans-serif;
 }
 #mensaje{
@@ -55,7 +57,19 @@ h1,p{
   cursor: pointer;
   display: block;
   margin: 40px auto;
+  background-color: black;
+  color: white;
 }
 #limpiar{
   display: none;
+}
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: #01010D;
+  color:white;
+  padding: 25px;
+}
+span{ 
+  margin: auto;
 }
