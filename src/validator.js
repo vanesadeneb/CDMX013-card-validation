@@ -28,11 +28,11 @@ const validator = {
     //Checar si la tarjeta es válida o invalida
     let pNode = document.getElementById("mensaje");
     if(sum % 10 === 0){
-      pNode.textContent += "Tu tarjeta de cŕedito " + creditCardNumber + " es válida";
+      pNode.textContent += "Tu tarjeta de cŕedito es válida";
 	    console.log("valida");
       return true;
     }else{
-      pNode.textContent += "Tu tarjeta de cŕedito " + creditCardNumber + " es inválida";
+      pNode.textContent += "Tu tarjeta de cŕedito es inválida";
 	    console.log("invalida");
       return false;
     }
