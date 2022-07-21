@@ -11,20 +11,18 @@ navbar{
 }
 #logo{
   padding: 15px 25px;
-  width: 14%;
-  height: 61%;
+  width: 24%;
+  height: 72%;
+  background-color: #01010D;
 }
 #menu{
   color: white;
   padding: 20px 45px;
-  margin-top: 10px;
-}
-#logo{
-  background-color: #01010D;
+  margin-top: 20px;
 }
 #container{
   width: 40%;
-  margin: 10% auto;
+  margin: 5% auto;
   text-align: center;
   height: 100%;
   padding: 3em 5em;
@@ -69,7 +67,10 @@ footer{
   flex-direction: row;
   background-color: #01010D;
   color:white;
-  padding: 19.5px;
+  padding: 20px 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 span{ 
   margin: auto;
