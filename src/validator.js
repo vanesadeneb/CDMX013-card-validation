@@ -23,7 +23,7 @@ const validator = {
     }
     
     //Sumar todos los dígitos
-    const sum = validationCardNumber.reduce((a,b) => a + b, 0)
+    const sum = validationCardNumber.reduce((acumulador,valorActual) => acumulador + valorActual, 0);
     
     //Checar si la tarjeta es válida o invalida
     let pNode = document.getElementById("mensaje");
