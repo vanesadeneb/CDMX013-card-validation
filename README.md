@@ -26,7 +26,7 @@ Los usuarios que interactúan directamente con el validador de tarjetas de créd
 Es importante para el gimnasio contar con esta web app porque les evita problemas de fraude con tarjetas de crédito inválidas, confirmar que los datos de la tarjeta del cliente son confiables y facilitar los pagos tanto para los clientes como para el gimnasio.
 
 ### Fotografía del primer prototipo en papel.
-![Fotografia del prottotipo](https://github.com/vanesadeneb/CDMX013-card-validation/tree/main/src/img/prototipoCardValidation.jpeg?raw=true)
+![Fotografia del primer protoripo en papel](https://github.com/vanesadeneb/CDMX013-card-validation/blob/main/src/img/prototipoCardValidation.jpeg)
 
 ## Resumen de feedback
 Consejos y sugerencias recibidos por parte de los coaches y mis compañeras:
