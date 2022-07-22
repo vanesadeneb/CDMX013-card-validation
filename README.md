@@ -18,7 +18,7 @@ Es una sección de la página web de un gimnasio que necesita validar las tarjet
  
 ## Imagen final del proyecto
 
-![Proyecto cardValidation](https://github.com/vanesadeneb/CDMX013-card-validation/tree/main/src/img/cardValidationImageProject.png)
+![Imagen final del proyecto](https://github.com/vanesadeneb/CDMX013-card-validation/blob/main/src/img/cardValidationImageProject.png)
 
 ## 2. Investigación UX
 
