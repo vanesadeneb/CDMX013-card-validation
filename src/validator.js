@@ -26,13 +26,11 @@ const validator = {
     const sum = validationCardNumber.reduce((acumulador,valorActual) => acumulador + valorActual, 0);
     
     //Checar si la tarjeta es válida o invalida
-    let pNode = document.getElementById("mensaje");
+    
     if(sum % 10 === 0){
-      pNode.textContent += "Tu tarjeta de cŕedito es válida";
 	    console.log("valida");
       return true;
     }else{
-      pNode.textContent += "Tu tarjeta de cŕedito es inválida";
 	    console.log("invalida");
       return false;
     }
