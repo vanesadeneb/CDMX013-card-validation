@@ -13,9 +13,10 @@ document.getElementById("validar").addEventListener("click", function(e){
         document.getElementById("cardNumber").value = "";
     }else if(validator.isValid(creditCardNumber) === true){
         pNode.textContent += "Tu tarjeta de cŕedito es válida";
-        
+        pNode.style.color = '#008000';
     }else{
         pNode.textContent += "Tu tarjeta de cŕedito es inválida";
+        pNode.style.color = '#d00000';
     }
     
     document.getElementById("cardNumber").value = validator.maskify(creditCardNumber);
