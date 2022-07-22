@@ -20,7 +20,7 @@ Es una sección de la página web de un gimnasio que necesita validar las tarjet
 
 ![Imagen final del proyecto](https://github.com/vanesadeneb/CDMX013-card-validation/blob/main/src/img/cardValidationImageProject.png)
 
-## 2. Investigación UX
+## Investigación UX
 
 Los usuarios que interactúan directamente con el validador de tarjetas de crédito son las personas encargadas de dar de alta a los clientes que se suscriben por primera vez o desean actualizar los datos de pago, normalmente los encuentras en la recepción del gimnasio.
 Es importante para el gimnasio contar con esta web app porque les evita problemas de fraude con tarjetas de crédito inválidas, confirmar que los datos de la tarjeta del cliente son confiables y facilitar los pagos tanto para los clientes como para el gimnasio.
