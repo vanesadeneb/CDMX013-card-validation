@@ -4,9 +4,9 @@
 
 * [Resumen del proyecto](#resumen-del-proyecto)
 * [Imagen final del proyecto](#imagen-final-del-proyecto)
-* [Investigación UX](#investigacion-ux)
+* [Investigación UX](#investigación-ux)
 * [Consideraciones generales](#4-consideraciones-generales)
-* [Fotografía del primer prototipo en papel](#fotografia-del-primer-prototipo-en-papel)
+* [Fotografía del primer prototipo en papel](#fotografía-del-primer-prototipo-en-papel)
 * [Resumen de feedback](#resumen-de-feedback)
 * [Imagen del prototipo final](#imagen-del-prototipo-final)
 
