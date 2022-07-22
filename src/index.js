@@ -6,28 +6,33 @@ document.getElementById("validar").addEventListener("click", function(e){
     const creditCardNumber = document.getElementById("cardNumber").value;
     console.log(creditCardNumber);
     const regex = new RegExp('^\\d+$');
+    let pNode = document.getElementById("mensaje");
 
     if(!regex.test(creditCardNumber)){
         alert("¡Ingresa el número de tu tarjeta de cŕedito!");
         document.getElementById("cardNumber").value = "";
+    }else if(validator.isValid(creditCardNumber) === true){
+        pNode.textContent += "Tu tarjeta de cŕedito es válida";
+        
     }else{
-        validator.isValid(creditCardNumber);
-        document.getElementById("cardNumber").value = validator.maskify(creditCardNumber);
-        const buttonLimpiar = document.getElementById("limpiar");
-        const buttonValidar = document.getElementById("validar");
-        if (buttonLimpiar.style.display !== "none") {
-            buttonLimpiar.style.display = "block";
-            buttonValidar.style.display = "none";
-        } else {
-            buttonLimpiar.style.display = "none";
-            buttonValidar.style.display = "block";
-        }
-    }    
+        pNode.textContent += "Tu tarjeta de cŕedito es inválida";
+    }
+    
+    document.getElementById("cardNumber").value = validator.maskify(creditCardNumber);
+    
+    const buttonLimpiar = document.getElementById("limpiar");
+    const buttonValidar = document.getElementById("validar");
+    if (buttonLimpiar.style.display !== "none") {
+        buttonLimpiar.style.display = "block";
+        buttonValidar.style.display = "none";
+    } else {
+        buttonLimpiar.style.display = "none";
+        buttonValidar.style.display = "block";
+    }
+        
 });
 
 document.getElementById("limpiar").addEventListener("click", function(e){
     e.preventDefault();
     window.location.href='index.html';
 });
-
-console.log(validator);
